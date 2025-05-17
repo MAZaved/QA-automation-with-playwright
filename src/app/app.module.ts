@@ -4,6 +4,7 @@
  * Licensed under the MIT License. See License.txt in the project root for license information.
  */
 import { BrowserModule } from '@angular/platform-browser';
+<<<<<<< HEAD
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
@@ -41,3 +42,40 @@ import {
 })
 export class AppModule {
 }
+=======
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import {
+  NgaThemeModule,
+  NgaCardModule,
+  NgaLayoutModule,
+  NgaMenuModule,
+  NgaRouteTabsetModule,
+  NgaSidebarModule,
+  NgaTabsetModule,
+} from '@nga/theme';
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    NgaThemeModule,
+    NgaCardModule,
+    NgaLayoutModule,
+    NgaMenuModule,
+    NgaRouteTabsetModule,
+    NgaSidebarModule,
+    NgaTabsetModule,
+  ],
+  providers: [],
+  bootstrap: [AppComponent],
+})
+export class AppModule { }
+>>>>>>> cccd821

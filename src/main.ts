@@ -13,5 +13,9 @@ if (environment.production) {
   enableProdMode();
 }
 
+<<<<<<< HEAD
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
+=======
+platformBrowserDynamic().bootstrapModule(AppModule);
+>>>>>>> cccd821

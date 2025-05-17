@@ -23,7 +23,10 @@
 !.vscode/extensions.json
 
 # misc
+<<<<<<< HEAD
 /.angular/cache
+=======
+>>>>>>> cccd821
 /.sass-cache
 /connect.lock
 /coverage
@@ -31,7 +34,10 @@
 npm-debug.log
 testem.log
 /typings
+<<<<<<< HEAD
 /docs
+=======
+>>>>>>> cccd821
 
 # e2e
 /e2e/*.js
